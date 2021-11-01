@@ -17,7 +17,7 @@ main {
 
 .title {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
 
     font-family: 'Pompiere', sans-serif;
@@ -56,7 +56,7 @@ main {
 
 .image-bottom {
     position: absolute;
-    width: 200px;
+    height: 38%;
 
     bottom: 0;
     left: 50%;
@@ -64,4 +64,5 @@ main {
     
     border: 2px solid #d16431;
     border-radius: 50%;
+    z-index: 0;
 }
